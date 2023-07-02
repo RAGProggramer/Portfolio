@@ -10,12 +10,10 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Configure parameters for the email service
-    const serviceID = 'Yservice_nwd8koh';
-    const templateID = 'template_lttcdwb';
-    const userID = 'HYH0OAJjeL45-i7gR';
+    const serviceID = 'service_4aqil1s';
+    const templateID = 'template_wqyudt1';
+    const userID = 'K9at_gZ5ec3c4ociz';
 
-    // Send email using Email.js
     emailjs.send(serviceID, templateID, {
       from_name: name,
       from_email: email,
